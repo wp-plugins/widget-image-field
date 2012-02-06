@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== Widget Image Field ===
 Contributors: jchristopher
 Donate link: http://mondaybynoon.com/donate/
 Tags: widget, image, field, upload
