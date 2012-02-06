@@ -10,7 +10,7 @@ Creates an image field for use in your own Widgets
 
 == Description ==
 
-Please see [this article](http://mondaybynoon.com/20120204/wordpress-widget-image-field/)
+Please see [this article](http://mondaybynoon.com/20120206/wordpress-widget-image-field/)
 
 == Installation ==
 
@@ -22,7 +22,7 @@ Please see [this article](http://mondaybynoon.com/20120204/wordpress-widget-imag
 
 = I activated the plugin, but don't see a new Widget =
 
-Please see [this article](http://mondaybynoon.com/20120204/wordpress-widget-image-field/)
+Please see [this article](http://http://mondaybynoon.com/20120206/wordpress-widget-image-field/)
 
 == Screenshots ==
 
