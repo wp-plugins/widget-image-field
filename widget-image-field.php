@@ -4,14 +4,14 @@
     Plugin URI: http://mondaybynoon.com/wordpress/widget-image-field/
     Description: This prepares an image field for use within your own Widgets
     Author: Jonathan Christopher
-    Version: 0.2
+    Version: 0.3
     Author URI: http://mondaybynoon.com/
 */
 
 if( !defined( 'IS_ADMIN' ) )
     define( 'IS_ADMIN',  is_admin() );
 
-define( 'WIDGET_IMAGE_FIELD_VERSION', '0.1' );
+define( 'WIDGET_IMAGE_FIELD_VERSION', '0.3' );
 define( 'WIDGET_IMAGE_FIELD_DIR', WP_PLUGIN_DIR . '/' . basename( dirname( __FILE__ ) ) );
 define( 'WIDGET_IMAGE_FIELD_URL', rtrim( plugin_dir_url( __FILE__ ), '/' ) );
 
@@ -72,7 +72,7 @@ class WidgetImageField
 
         if( $this->image_id )
         {
-            $image      = $this->get_image( $this->image_id, $size );
+            $image      = $this->get_image( $size );
             $src        = $image[0];
         }
 
@@ -85,7 +85,7 @@ class WidgetImageField
 
         if( $this->image_id )
         {
-            $image          = $this->get_image( $this->image_id, $size );
+            $image          = $this->get_image( $size );
             $dimensions     = array( $image[1], $image[2] );
         }
 
@@ -98,7 +98,7 @@ class WidgetImageField
 
         if( $this->image_id )
         {
-            $dimensions     = $this->get_image_dimensions( $this->image_id, $size );
+            $dimensions     = $this->get_image_dimensions( $size );
             $width          = $dimensions[0];
         }
 
@@ -111,7 +111,7 @@ class WidgetImageField
 
         if( $this->image_id )
         {
-            $dimensions     = $this->get_image_dimensions( $this->image_id, $size );
+            $dimensions     = $this->get_image_dimensions( $size );
             $height         = $dimensions[1];
         }
 

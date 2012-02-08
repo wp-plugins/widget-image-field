@@ -4,7 +4,7 @@ Donate link: http://mondaybynoon.com/donate/
 Tags: widget, image, field, upload
 Requires at least: 3.3
 Tested up to: 3.3.1
-Stable tag: 0.2
+Stable tag: 0.3
 
 Creates an image field for use in your own Widgets
 
@@ -29,6 +29,9 @@ Please see [this article](http://mondaybynoon.com/20120206/wordpress-widget-imag
 1. The provided image field in use
 
 == Changelog ==
+
+= 0.3 =
+* Size definition was not working (props github.com/etiennetremel)
 
 = 0.2 =
 * Initial release
