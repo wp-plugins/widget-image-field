@@ -1,14 +1,16 @@
 === Widget Image Field ===
 Contributors: jchristopher
 Donate link: http://mondaybynoon.com/donate/
-Tags: widget, image, field, upload
+Tags: adopt-me, widget, image, field, upload
 Requires at least: 3.3
-Tested up to: 3.3.1
+Tested up to: 4.2
 Stable tag: 0.3
 
-Creates an image field for use in your own Widgets
+[Adopt Me!] Creates an image field for use in your own Widgets
 
 == Description ==
+
+**Adopt me!** This plugin uses Thickbox which has been deprecated in favor of the new Media enhancements brought about in WordPress 3.5. If you're interested in adopting this plugin (it is no longer actively developed) please let me know.
 
 Please see [this article](http://mondaybynoon.com/20120206/wordpress-widget-image-field/)
 
