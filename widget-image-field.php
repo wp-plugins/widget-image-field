@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Widget Image Field
-Plugin URI: http://mondaybynoon.com/wordpress/widget-image-field/
+Plugin URI: https://wordpress.org/plugins/widget-image-field/
 Description: This prepares an image field for use within your own Widgets
-Author: Jonathan Christopher
+Author: Walter Lopez
 Version: 0.3
-Author URI: http://mondaybynoon.com/
+Author URI: https://wpallied.com
 */
 
 define( 'WIDGET_IMAGE_FIELD_URL', rtrim( plugin_dir_url( __FILE__ ), '/' ) );
